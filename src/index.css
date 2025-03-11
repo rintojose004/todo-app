@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.touch-none {
+  touch-action: none;
+}
+.no-touch-select {
+  touch-action: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard syntax */
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.input-no-focus {
+  box-shadow: none !important;
+}
+
+.input-no-focus:focus {
+  box-shadow: none !important;
+}
